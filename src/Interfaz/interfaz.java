@@ -457,7 +457,7 @@ public class interfaz extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(232, 220, 247));
 
         jLabel24.setFont(new java.awt.Font("FreeSerif", 0, 24)); // NOI18N
-        jLabel24.setText("Contacto");
+        jLabel24.setText("Contacta a la empresa");
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
@@ -472,16 +472,16 @@ public class interfaz extends javax.swing.JFrame {
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(80, 80, 80))
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(166, 166, 166)
+                .addGap(104, 104, 104)
                 .addComponent(jLabel24)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(47, 47, 47)
+                .addGap(40, 40, 40)
                 .addComponent(jLabel24)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 198, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 205, Short.MAX_VALUE)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 232, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(74, 74, 74))
         );
