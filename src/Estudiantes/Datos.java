@@ -105,5 +105,13 @@ public class Datos {
     public void auxilio(){
         
     }
-    
+     
+   public static void main(String[]arg) {
+      Datos Linda =new Datos();
+      
+      Linda.setNombre("Linda Lizeth");
+      System.out.println(Linda.getNombre());
+      
+   
+   }
 }
