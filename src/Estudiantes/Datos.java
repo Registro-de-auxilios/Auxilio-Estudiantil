@@ -109,9 +109,8 @@ public class Datos {
    public static void main(String[]arg) {
       Datos Linda =new Datos();
       
-      Linda.setNombre("Linda Lizeth");
+      Linda.setNombre("Fredy");
       System.out.println(Linda.getNombre());
-      
-   
+     
    }
 }
