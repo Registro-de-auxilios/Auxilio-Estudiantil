@@ -11,6 +11,7 @@ package Estudiantes;
  * @author adsi-admin
  */
 public class Datos {
+    public int id;
     public String nombre;
     public String apellido;
     public String documento;
@@ -21,6 +22,14 @@ public class Datos {
     public String email;
     public String curso;
     public int ficha;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNombre() {
         return nombre;
@@ -101,6 +110,8 @@ public class Datos {
     public void setFicha(int ficha) {
         this.ficha = ficha;
     }
+
+    
     
     public void auxilio(){
         

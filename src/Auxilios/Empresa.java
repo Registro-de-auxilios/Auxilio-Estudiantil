@@ -11,11 +11,20 @@ package Auxilios;
  * @author adsi-admin
  */
 public class Empresa {
+   public int id;
    public String nombreEmpresa;
    public String nit;
    public int telefono;
    public String direccion;
    public String email;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getNombreEmpresa() {
         return nombreEmpresa;
@@ -56,4 +65,6 @@ public class Empresa {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    
 }
