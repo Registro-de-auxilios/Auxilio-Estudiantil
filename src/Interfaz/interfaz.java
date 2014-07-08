@@ -223,6 +223,7 @@ public class interfaz extends javax.swing.JFrame {
         jLabel3.setText("Nombre:");
 
         jTextField1.setBackground(new java.awt.Color(254, 254, 254));
+        jTextField1.setText("linda");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
