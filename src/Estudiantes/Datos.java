@@ -116,5 +116,12 @@ public class Datos {
     public void auxilio(){
         
     }
-    
+     
+   public static void main(String[]arg) {
+      Datos Linda =new Datos();
+      
+      Linda.setNombre("Fredy");
+      System.out.println(Linda.getNombre());
+     
+   }
 }
